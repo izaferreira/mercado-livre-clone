@@ -1,5 +1,6 @@
 import { Container, Row, Panel, Column, Gallery, Section, Description } from './styles';
 import Image from 'next/image'
+import SellerInfo from '../SellerInfo';
 
 import tshirtImage from '../../assets/tshirt.png'
 
@@ -25,6 +26,7 @@ const Product: React.FC = () => {
         <Column>
           {/* <ProductAction /> */}
           {/* <SellerInfo /> */}
+          <SellerInfo />
 
           <WarrantySection />
           <WarrantySection />
